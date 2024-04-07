@@ -70,6 +70,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
     
+    
 }
 .btn{
     padding-right: 20px;
@@ -158,4 +159,166 @@ nav h1 {
 #course{
     color: black;
 }
+form{
+    height: 500px;
+    width: 500px;
+    max-width: auto;
+    min-width: auto;
+    border: 3px solid black;
+    box-shadow: 0px 0px 10px 0px lavenderblush;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    
+    
+    
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 180px;
+    
+    
+   
+}
+.login{
+    height: 70px;
+    width: 100%;
+    
+   
+    align-content: center;
+
+}
+.log_in{
+    font-family: 'Courier New', Courier, monospace;
+    color: lavender;
+    text-align: center;
+
+
+
+}
+.ipt{
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+    padding: 50px;
+}
+#ipt1{
+    text-decoration: none;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid lavenderblush;
+    padding: 20px;
+    background-color: transparent;
+    outline-color: lavenderblush;
+    color: lavender;
+    font-size: 20px;
+}
+#ipt1:focus{
+    text-decoration: none;
+    border: none;
+    outline-color: lavenderblush;
+}
+#ipt2{
+    text-decoration: none;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid lavenderblush;
+    padding: 20px;
+    background-color: transparent;
+    color: lavender;
+    font-size: 20px;
+}
+#ipt2:focus{
+    text-decoration: none;
+    border: none;
+    outline-color: lavenderblush;
+    background-color: transparent;
+    
+}
+#ipt1::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    color: lavenderblush;
+    font-size: 20px;
+}
+#ipt2::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    color: lavenderblush;
+    font-size: 20px;
+}
+#bd1{
+    background-image: url('https://wallpapercave.com/wp/wp2939900.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#btn123{
+    height: 50px;
+    width: 120px;
+    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: transparent;
+    color: lavenderblush;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 29%;
+    border: 1px solid lavenderblush;
+    box-shadow: 0px 0px 3px 1px lavenderblush;
+    border-radius: 30px;
+    
+}
+#btn123:hover{
+    cursor: pointer;
+    
+}
+#btn123:focus{
+    height: 40px;
+    width: 120px;
+  
+    
+}
+.icon1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+}
+#icon_one{
+    font-size: 30px;
+    
+}
+.key{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+   
+}
+#key_one{
+    font-size: 20px;
+}
+.para_one{
+    color: lavenderblush;
+}
+.para{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sign_up{
+    color: red;
+}
+#l{
+    color: red;
+}
+    
 
